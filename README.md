@@ -1,16 +1,29 @@
-## Hi there 👋
+# Hi, I'm Yona 👋
 
-<!--
-**YonaZakkart/YonaZakkart** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Software Development Engineering student, building things with TypeScript and JavaScript.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Technologies
+
+**Comfortable with**
+- TypeScript / JavaScript
+- Node.js
+
+**Learning & exploring**
+- PostgreSQL · MySQL
+- Docker
+- Linux (Ubuntu, Fedora)
+
+---
+
+## GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YonaZakkart&show_icons=true&theme=dark&hide_border=true" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YonaZakkart&layout=compact&theme=dark&hide_border=true" height="150"/>
+</p>
+
+---
+
+*Always learning. Always building.*

@@ -53,10 +53,6 @@ An interactive web-based memory card game focusing on dynamic DOM manipulation, 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=YonaZakkart&theme=dark&hide_border=true&layout=compact" alt="Top Languages" />
-</p>
-
-<p align="center">
   <img src="https://streak-stats.demolab.com?user=YonaZakkart&theme=dark&hide_border=true" alt="GitHub Streak" />
 </p>
 

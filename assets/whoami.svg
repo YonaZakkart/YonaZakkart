@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="300" viewBox="0 0 860 300" role="img" aria-label="Datos de sistema de Yonathan Sánchez en estilo fastfetch">
+  <title>fastfetch · Yonathan Sánchez</title>
+
+  <defs>
+    <linearGradient id="gold-edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8C872"/>
+      <stop offset="0.55" stop-color="#9C7A2E"/>
+      <stop offset="1" stop-color="#D4AF37"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#D4AF37" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#D4AF37" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <style>
+    text { font-family: 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace; font-size: 17px; }
+    .row { opacity: 0; animation: fade .6s ease-out forwards; }
+    @keyframes fade { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: translateX(0); } }
+    .user { fill: #E8C872; }
+    .dim  { fill: #9C7A2E; }
+    .key  { fill: #D4AF37; font-weight: 700; }
+    .val  { fill: #F3E3B3; }
+  </style>
+
+  <!-- Ventana -->
+  <rect x="10" y="10" width="840" height="280" rx="12" fill="#0A0A0C" fill-opacity="0.6" stroke="url(#gold-edge)" stroke-opacity="0.55" stroke-width="1.5"/>
+  <line x1="11" y1="48" x2="849" y2="48" stroke="#D4AF37" stroke-opacity="0.2"/>
+  <circle cx="34" cy="29" r="6" fill="#7A1F2E"/>
+  <circle cx="56" cy="29" r="6" fill="#9C7A2E"/>
+  <circle cx="78" cy="29" r="6" fill="#E8C872"/>
+  <text x="430" y="35" text-anchor="middle" class="dim" style="font-size:14px">yona@fedora:~ — fastfetch</text>
+
+  <!-- Emblema original: rombos concéntricos con monograma -->
+  <circle cx="140" cy="170" r="100" fill="url(#glow)"/>
+  <polygon points="140,90 220,170 140,250 60,170" fill="none" stroke="#9C7A2E" stroke-width="1.5" stroke-opacity="0.9"/>
+  <polygon points="140,112 198,170 140,228 82,170" fill="none" stroke="#D4AF37" stroke-width="1.5"/>
+  <polygon points="140,138 172,170 140,202 108,170" fill="#D4AF37" fill-opacity="0.14" stroke="#E8C872" stroke-width="1.5"/>
+  <text x="140" y="181" text-anchor="middle" style="font-size:30px;font-weight:700" fill="#E8C872">Y</text>
+
+  <!-- Encabezado -->
+  <text x="290" y="88" class="user" style="font-weight:700">yona</text>
+  <text x="338" y="88" class="dim">@</text>
+  <text x="354" y="88" class="user" style="font-weight:700">fedora</text>
+  <line x1="290" y1="100" x2="560" y2="100" stroke="#9C7A2E" stroke-opacity="0.6"/>
+
+  <!-- Datos -->
+  <g class="row" style="animation-delay:.2s"><text x="290" y="128" class="key">OS</text><text x="410" y="128" class="val">Fedora Linux</text></g>
+  <g class="row" style="animation-delay:.45s"><text x="290" y="152" class="key">DE</text><text x="410" y="152" class="val">KDE Plasma</text></g>
+  <g class="row" style="animation-delay:.7s"><text x="290" y="176" class="key">Editor</text><text x="410" y="176" class="val">Visual Studio Code</text></g>
+  <g class="row" style="animation-delay:.95s"><text x="290" y="200" class="key">Languages</text><text x="410" y="200" class="val">TypeScript · JavaScript · Python</text></g>
+  <g class="row" style="animation-delay:1.2s"><text x="290" y="224" class="key">Learning</text><text x="410" y="224" class="val">Event-Driven · Docker · Databases</text></g>
+  <g class="row" style="animation-delay:1.45s"><text x="290" y="248" class="key">Studies</text><text x="410" y="248" class="val">Software Development Engineering</text></g>
+
+  <!-- Paleta, como en fastfetch -->
+  <g class="row" style="animation-delay:1.7s">
+    <rect x="290" y="262" width="28" height="14" fill="#0A0A0C" stroke="#D4AF37" stroke-opacity="0.6"/>
+    <rect x="322" y="262" width="28" height="14" fill="#7A1F2E"/>
+    <rect x="354" y="262" width="28" height="14" fill="#9C7A2E"/>
+    <rect x="386" y="262" width="28" height="14" fill="#D4AF37"/>
+    <rect x="418" y="262" width="28" height="14" fill="#E8C872"/>
+    <rect x="450" y="262" width="28" height="14" fill="#F3E3B3"/>
+  </g>
+</svg>

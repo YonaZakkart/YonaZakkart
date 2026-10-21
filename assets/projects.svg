@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="495" viewBox="0 0 860 495" role="img" aria-label="Proyectos de Yonathan Sánchez: Yoro, Números y Formas y E-Commerce">
+  <title>ls projects/ · Yonathan Sánchez</title>
+
+  <defs>
+    <linearGradient id="gold-edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8C872"/>
+      <stop offset="0.55" stop-color="#9C7A2E"/>
+      <stop offset="1" stop-color="#D4AF37"/>
+    </linearGradient>
+    <clipPath id="c1"><rect class="t" x="36" y="68" height="30" style="--w:340px;animation-duration:1s;animation-delay:.3s;animation-timing-function:steps(27,end)"/></clipPath>
+    <clipPath id="c2"><rect class="t" x="36" y="452" height="30" style="--w:190px;animation-duration:.5s;animation-delay:2.9s;animation-timing-function:steps(15,end)"/></clipPath>
+  </defs>
+
+  <style>
+    text { font-family: 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace; font-size: 18px; }
+    .t { width: 0; animation-name: type; animation-fill-mode: forwards; }
+    @keyframes type { to { width: var(--w); } }
+    .row { opacity: 0; animation: fade .6s ease-out forwards; }
+    @keyframes fade { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: translateX(0); } }
+    .cursor { opacity: 0; animation: blink 1s steps(1, end) 3.4s infinite; }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    .user   { fill: #E8C872; }
+    .dim    { fill: #9C7A2E; }
+    .dollar { fill: #B3374A; }
+    .val    { fill: #F3E3B3; }
+    .name   { fill: #E3A83F; font-weight: 700; }
+    .tag    { fill: #8FA874; font-size: 14px; }
+    .desc   { fill: #E9DCC0; font-size: 15px; }
+    .url    { fill: #B9806E; font-size: 14px; }
+  </style>
+
+  <!-- Ventana -->
+  <rect x="10" y="10" width="840" height="475" rx="12" fill="#0A0A0C" fill-opacity="0.6" stroke="url(#gold-edge)" stroke-opacity="0.55" stroke-width="1.5"/>
+  <line x1="11" y1="48" x2="849" y2="48" stroke="#D4AF37" stroke-opacity="0.2"/>
+  <circle cx="34" cy="29" r="6" fill="#7A1F2E"/>
+  <circle cx="56" cy="29" r="6" fill="#9C7A2E"/>
+  <circle cx="78" cy="29" r="6" fill="#E8C872"/>
+  <text x="430" y="35" text-anchor="middle" class="dim" style="font-size:14px">yona@fedora:~ — projects</text>
+
+  <!-- Comando -->
+  <g clip-path="url(#c1)">
+    <text x="36" y="92"><tspan class="user">yona@fedora</tspan><tspan class="dim">:~</tspan><tspan class="dollar">$ </tspan><tspan class="val">ls projects/</tspan></text>
+  </g>
+
+  <!-- Proyecto 1 -->
+  <g class="row" style="animation-delay:1.5s">
+    <text x="36" y="132" class="name">› yoro/</text>
+    <text x="824" y="132" text-anchor="end" class="tag">[ JavaScript ]</text>
+    <text x="60" y="156" class="desc">Interactive progression game in vanilla JavaScript.</text>
+    <text x="60" y="178" class="desc">Custom mini-games and game state management.</text>
+    <text x="60" y="200" class="url">github.com/YonaZakkart/yoro</text>
+  </g>
+  <line x1="36" y1="218" x2="824" y2="218" stroke="#D4AF37" stroke-opacity="0.15"/>
+
+  <!-- Proyecto 2 -->
+  <g class="row" style="animation-delay:1.9s">
+    <text x="36" y="244" class="name">› numeros-y-formas/</text>
+    <text x="824" y="244" text-anchor="end" class="tag">[ Web · Education ]</text>
+    <text x="60" y="268" class="desc">Interactive web app for teaching primary mathematics,</text>
+    <text x="60" y="290" class="desc">aligned with the ESMATE curriculum.</text>
+    <text x="60" y="312" class="url">github.com/YonaZakkart/numeros-y-formas</text>
+  </g>
+  <line x1="36" y1="330" x2="824" y2="330" stroke="#D4AF37" stroke-opacity="0.15"/>
+
+  <!-- Proyecto 3 -->
+  <g class="row" style="animation-delay:2.3s">
+    <text x="36" y="356" class="name">› e-commerce/</text>
+    <text x="824" y="356" text-anchor="end" class="tag">[ Frontend + API · OOP ]</text>
+    <text x="60" y="380" class="desc">Frontend + API practice project: product management,</text>
+    <text x="60" y="402" class="desc">shopping cart logic and OOP principles.</text>
+    <text x="60" y="424" class="url">github.com/YonaZakkart/proyecto-ecomerce · ecomerce-api</text>
+  </g>
+
+  <!-- Prompt final -->
+  <g clip-path="url(#c2)">
+    <text x="36" y="474"><tspan class="user">yona@fedora</tspan><tspan class="dim">:~</tspan><tspan class="dollar">$ </tspan></text>
+  </g>
+  <rect class="cursor" x="206" y="458" width="11" height="20" fill="#E8C872"/>
+</svg>

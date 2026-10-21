@@ -1,65 +1,49 @@
-## Hi, I'm Yona
-#### Software Development Engineering student focused on **TypeScript**, web development and practical systems.
-#### Currently deepening skills in event-driven programming, Docker, Nginx, databases and data structures, while exploring applied AI and foundational cybersecurity.
----
-
-### Tech Stack
-#### Languages:
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-#### Backend & Web:
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-#### Tools & Infrastructure:
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-#### Linux & Databases:
-![Fedora](https://img.shields.io/badge/Fedora-51A2DA?style=for-the-badge&logo=fedora&logoColor=white)
-![KDE](https://img.shields.io/badge/KDE-1D99F3?style=for-the-badge&logo=kde&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-
----
-
-## Featured Projects
-
-### 1. Yoro
-Interactive progression game built with vanilla JavaScript. Includes custom mini-games and game state management.
-
-[![View Repository](https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YonaZakkart/yoro)
-[![View GitHub Page](https://img.shields.io/badge/View_GitHub_Page-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://yonazakkart.github.io/yoro/)
-
----
-
-### 2. Números y Formas
-Interactive web application for teaching primary mathematics, aligned with the ESMATE curriculum.
-
-[![View Repository](https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YonaZakkart/numeros-y-formas)
-
----
-
-### 3. E-Commerce Web Application
-Full frontend + API practice project focused on product management, shopping cart logic and OOP principles.
-
-[![E-Commerce Platform](https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YonaZakkart/proyecto-ecomerce)
-[![API repository](https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YonaZakkart/ecomerce-api)
-
----
-
-## GitHub Stats
-
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=YonaZakkart&theme=dark&hide_border=true" alt="GitHub Streak" />
+  <img src="assets/banner.svg" alt="Terminal de Yonathan Sánchez" width="860">
 </p>
 
----
+## `$ whoami`
 
-*Always learning. Always building.*
+<p align="center">
+  <img src="assets/whoami.svg" alt="fastfetch de Yonathan Sánchez" width="860">
+</p>
+
+## `$ cat tech-stack.yaml`
+
+| `yona@fedora:~$ cat tech-stack.yaml` | |
+| :--- | :--- |
+| `├─ ✦ languages:` <img src="https://cdn.simpleicons.org/typescript/D9A441" height="22" alt="TypeScript"> <img src="https://cdn.simpleicons.org/javascript/D9A441" height="22" alt="JavaScript"> <img src="https://cdn.simpleicons.org/python/D9A441" height="22" alt="Python"> <br> `TypeScript · JavaScript · Python` | `├─ ◈ backend_web:` <img src="https://cdn.simpleicons.org/nodedotjs/7F9A6B" height="22" alt="Node.js"> <img src="https://cdn.simpleicons.org/html5/7F9A6B" height="22" alt="HTML5"> <img src="https://cdn.simpleicons.org/css/7F9A6B" height="22" alt="CSS"> <br> `Node.js · HTML · CSS` |
+| `├─ ◆ tools_infra:` <img src="https://cdn.simpleicons.org/git/B9806E" height="22" alt="Git"> <img src="https://cdn.simpleicons.org/github/B9806E" height="22" alt="GitHub"> <img src="https://cdn.simpleicons.org/docker/B9806E" height="22" alt="Docker"> <br> `Git · GitHub · Docker` | `╰─ ▣ linux_databases:` <img src="https://cdn.simpleicons.org/fedora/B8962E" height="22" alt="Fedora"> <img src="https://cdn.simpleicons.org/kde/B8962E" height="22" alt="KDE"> <img src="https://cdn.simpleicons.org/ubuntu/B8962E" height="22" alt="Ubuntu"> <img src="https://cdn.simpleicons.org/debian/B8962E" height="22" alt="Debian"> <img src="https://cdn.simpleicons.org/mysql/B8962E" height="22" alt="MySQL"> <img src="https://cdn.simpleicons.org/postgresql/B8962E" height="22" alt="PostgreSQL"> <br> `Fedora · KDE · Ubuntu · Debian · MySQL · PostgreSQL` |
+| `status: learning  ·  environment: development` | |
+
+
+## `$ ls projects/`
+
+<p align="center">
+  <img src="assets/projects.svg" alt="Proyectos de Yonathan Sánchez" width="860">
+</p>
+
+<p >
+  <a href="https://github.com/YonaZakkart/yoro"><img src="https://img.shields.io/badge/yoro-repository-3B2F14?style=for-the-badge&logo=github&logoColor=E3A83F&labelColor=0A0A0C" alt="Yoro repository"></a>
+  <a href="https://yonazakkart.github.io/yoro/"><img src="https://img.shields.io/badge/yoro-live_demo-3B2F14?style=for-the-badge&logo=githubpages&logoColor=8FA874&labelColor=0A0A0C" alt="Yoro demo"></a>
+
+  <a href="https://github.com/YonaZakkart/numeros-y-formas"><img src="https://img.shields.io/badge/numeros_y_formas-repository-3B2F14?style=for-the-badge&logo=github&logoColor=E3A83F&labelColor=0A0A0C" alt="Números y Formas repository"></a>
+
+  <a href="https://github.com/YonaZakkart/proyecto-ecomerce"><img src="https://img.shields.io/badge/e--commerce-frontend-3B2F14?style=for-the-badge&logo=github&logoColor=E3A83F&labelColor=0A0A0C" alt="E-Commerce frontend"></a>
+  <a href="https://github.com/YonaZakkart/ecomerce-api"><img src="https://img.shields.io/badge/e--commerce-api-3B2F14?style=for-the-badge&logo=github&logoColor=B9806E&labelColor=0A0A0C" alt="E-Commerce API"></a>
+</p>
+
+## `$ cat now.yml`
+
+<p align="center">
+  <img src="assets/now.svg" alt="Aprendiendo y construyendo" width="860">
+</p>
+
+## `$ git log --stat`
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=YonaZakkart&background=0A0A0C99&border=D4AF3755&stroke=9C7A2E&ring=E3A83F&fire=B3374A&currStreakNum=F3E3B3&sideNums=F3E3B3&currStreakLabel=E3A83F&sideLabels=8FA874&dates=9C7A2E&border_radius=12" alt="GitHub streak">
+</p>
+
+<p align="center"><code>// always learning. always building.</code></p>
+

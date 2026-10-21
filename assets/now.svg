@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="385" viewBox="0 0 860 385" role="img" aria-label="Lo que Yonathan Sánchez está aprendiendo y construyendo actualmente">
+  <title>cat now.yml · Yonathan Sánchez</title>
+
+  <defs>
+    <linearGradient id="gold-edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8C872"/>
+      <stop offset="0.55" stop-color="#9C7A2E"/>
+      <stop offset="1" stop-color="#D4AF37"/>
+    </linearGradient>
+    <clipPath id="c1"><rect class="t" x="36" y="68" height="30" style="--w:330px;animation-duration:.9s;animation-delay:.3s;animation-timing-function:steps(26,end)"/></clipPath>
+    <clipPath id="c2"><rect class="t" x="36" y="328" height="30" style="--w:190px;animation-duration:.5s;animation-delay:3s;animation-timing-function:steps(15,end)"/></clipPath>
+  </defs>
+
+  <style>
+    text { font-family: 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace; font-size: 17px; }
+    .t { width: 0; animation-name: type; animation-fill-mode: forwards; }
+    @keyframes type { to { width: var(--w); } }
+    .row { opacity: 0; animation: fade .6s ease-out forwards; }
+    @keyframes fade { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: translateX(0); } }
+    .cursor { opacity: 0; animation: blink 1s steps(1, end) 3.5s infinite; }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    .user   { fill: #E8C872; }
+    .dim    { fill: #9C7A2E; }
+    .dollar { fill: #B3374A; }
+    .val    { fill: #F3E3B3; }
+    .key    { fill: #E3A83F; font-weight: 700; }
+    .ok     { fill: #8FA874; font-size: 14px; }
+    .priv   { fill: #B9806E; font-size: 14px; }
+  </style>
+
+  <!-- Ventana -->
+  <rect x="10" y="10" width="840" height="360" rx="12" fill="#0A0A0C" fill-opacity="0.6" stroke="url(#gold-edge)" stroke-opacity="0.55" stroke-width="1.5"/>
+  <line x1="11" y1="48" x2="849" y2="48" stroke="#D4AF37" stroke-opacity="0.2"/>
+  <circle cx="34" cy="29" r="6" fill="#7A1F2E"/>
+  <circle cx="56" cy="29" r="6" fill="#9C7A2E"/>
+  <circle cx="78" cy="29" r="6" fill="#E8C872"/>
+  <text x="430" y="35" text-anchor="middle" class="dim" style="font-size:14px">yona@fedora:~ — now</text>
+
+  <!-- Comando -->
+  <g clip-path="url(#c1)">
+    <text x="36" y="92" style="font-size:18px"><tspan class="user">yona@fedora</tspan><tspan class="dim">:~</tspan><tspan class="dollar">$ </tspan><tspan class="val">cat now.yml</tspan></text>
+  </g>
+
+  <!-- learning -->
+  <g class="row" style="animation-delay:1.3s">
+    <text x="36" y="130" class="key">learning:</text>
+    <text x="60" y="154" class="dim">-</text><text x="84" y="154" class="val">Event-Driven Programming</text>
+    <text x="60" y="178" class="dim">-</text><text x="84" y="178" class="val">Data Structures</text>
+    <text x="60" y="202" class="dim">-</text><text x="84" y="202" class="val">Web servers: Nginx · Apache</text>
+    <text x="60" y="226" class="dim">-</text><text x="84" y="226" class="val">Angular</text>
+  </g>
+
+  <!-- building -->
+  <g class="row" style="animation-delay:2.1s">
+    <text x="36" y="266" class="key">building:</text>
+    <text x="60" y="290" class="dim">-</text>
+    <text x="84" y="290" class="key" style="font-weight:400">Yoro:</text>
+    <text x="200" y="290" class="val">interactive progression game · vanilla JS</text>
+    <text x="824" y="290" text-anchor="end" class="ok">[ active ]</text>
+    <text x="60" y="314" class="dim">-</text>
+    <text x="84" y="314" class="key" style="font-weight:400">MathPath:</text>
+    <text x="200" y="314" class="val">gamified math learning web app</text>
+    <text x="824" y="314" text-anchor="end" class="priv">[ private · early stage ]</text>
+  </g>
+
+  <!-- Prompt final -->
+  <g clip-path="url(#c2)">
+    <text x="36" y="348" style="font-size:18px"><tspan class="user">yona@fedora</tspan><tspan class="dim">:~</tspan><tspan class="dollar">$ </tspan></text>
+  </g>
+  <rect class="cursor" x="206" y="332" width="11" height="20" fill="#E8C872"/>
+</svg>
